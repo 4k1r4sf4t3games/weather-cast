@@ -6,23 +6,23 @@ public class WarmphaseKaltphasenwechsel {
 	int startTag = 0;
 	int[] tempUndTag = new int[2];
 
-	int[] mTemp;
+	int[] mTemp3;
 	int[] mTag;
 
 	public WarmphaseKaltphasenwechsel(int[] tagArray, int[] temperaturArray) {
-		mTemp = temperaturArray;
+		mTemp3 = temperaturArray;
 		mTag = tagArray;
 	}
 
 	public int[] getTempUnterschiedUndTag() {
 		int newTempUnterschied = 0;
-		for (int i = 0; i < mTemp.length; i++) {
-			if ((i + 1) < mTemp.length) {
-				if (mTemp[i] < mTemp[i + 1]) {
-					newTempUnterschied = mTemp[i + 1] - mTemp[i];
+		for (int i = 0; i < mTemp3.length; i++) {
+			if ((i + 1) < mTemp3.length) {
+				if (mTemp3[i] < mTemp3[i + 1]) {
+					newTempUnterschied = mTemp3[i + 1] - mTemp3[i];
 				}
-				if (mTemp[i] >= mTemp[i + 1]) {
-					newTempUnterschied = mTemp[i] - mTemp[i + 1];
+				if (mTemp3[i] >= mTemp3[i + 1]) {
+					newTempUnterschied = mTemp3[i] - mTemp3[i + 1];
 				}
 				if (tempUnterschied < newTempUnterschied) {
 					tempUnterschied = newTempUnterschied;

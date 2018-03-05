@@ -22,12 +22,12 @@ public class Main {
 		System.out.println("Min Temp obetraegt: " + minTemp + " °C");
 
 		int anfangsTag;
-		int temperaturPeriode;
+		int temperaturWechsel;
 		WarmphaseKaltphasenwechsel warmphaseKaltphasenwechsel = new WarmphaseKaltphasenwechsel(tag, temperatur);
 		anfangsTag = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[0];
-		temperaturPeriode = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[1];
+		temperaturWechsel = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[1];
 		System.out.println("Groesster Temp Unterschied von Tag " + Integer.toString(anfangsTag + 1) + " zu Tag "
-				+ Integer.toString(anfangsTag + 2) + " betraegt: " + temperaturPeriode + " °C");
+				+ Integer.toString(anfangsTag + 2) + " betraegt: " + temperaturWechsel + " °C");
 
 	}
 

@@ -2,7 +2,6 @@ package com.placeworkers.tools;
 
 public class Durchschnittstemp {
 
-	
 	public int[] mTemp = null;
 
 	public Durchschnittstemp(int[] temp) {
