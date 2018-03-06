@@ -12,14 +12,13 @@ public class TestCaseWarmKaltPhase extends TagUndTemp {
 	@Test
 	public void test() {
 		WarmphaseKaltphasenwechsel warmphaseKaltphasenwechsel = new WarmphaseKaltphasenwechsel(tag, temperatur);
-		int[] tempTestundTag = new int[2];
 
-		int[] testcase = { 2, 5 };
+		int tempTestundTag1 = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[0];
+		int tempTestundTag2 = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[1];
 
-		tempTestundTag = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag();
-		assertEquals(testcase, tempTestundTag);
+		assertEquals(1, tempTestundTag1);
+		assertEquals(5, tempTestundTag2);
 
 	}
 
 }
-//Funktioniert noch nicht.. Ich bekomme die falsche Char Adresse ....
