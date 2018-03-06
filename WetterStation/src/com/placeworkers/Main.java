@@ -24,8 +24,8 @@ public class Main extends TagUndTemp {
 		WarmphaseKaltphasenwechsel warmphaseKaltphasenwechsel = new WarmphaseKaltphasenwechsel(tag, temperatur);
 		anfangsTag = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[0];
 		temperaturWechsel = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[1];
-		System.out.println("Groesster Temp Unterschied von TagUndTemp " + Integer.toString(anfangsTag + 1)
-				+ " zu TagUndTemp " + Integer.toString(anfangsTag + 2) + " betraegt: " + temperaturWechsel + " °C");
+		System.out.println("Groesster Temp Unterschied von Tag " + Integer.toString(anfangsTag + 1)
+				+ " zu Tag " + Integer.toString(anfangsTag + 2) + " betraegt: " + temperaturWechsel + " °C");
 
 	}
 
