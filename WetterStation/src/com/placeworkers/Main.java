@@ -2,10 +2,11 @@ package com.placeworkers;
 
 import com.placeworkers.tools.*;
 
-public class Main extends TagUndTemp {
+public class Main {
 
 	public static void main(String[] args) {
-
+		int[] tag = TagUndTemp.getTag();
+		int[] temperatur = TagUndTemp.getTemperatur();
 		int durchschnittsTemperatur = 0;
 		Durchschnittstemp durchschnittstemp = new Durchschnittstemp(temperatur);
 		durchschnittsTemperatur = durchschnittstemp.getDurchschnittstemp(temperatur);
@@ -24,8 +25,8 @@ public class Main extends TagUndTemp {
 		WarmphaseKaltphasenwechsel warmphaseKaltphasenwechsel = new WarmphaseKaltphasenwechsel(tag, temperatur);
 		anfangsTag = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[0];
 		temperaturWechsel = warmphaseKaltphasenwechsel.getTempUnterschiedUndTag()[1];
-		System.out.println("Groesster Temp Unterschied von Tag " + Integer.toString(anfangsTag + 1)
-				+ " zu Tag " + Integer.toString(anfangsTag + 2) + " betraegt: " + temperaturWechsel + " °C");
+		System.out.println("Groesster Temp Unterschied von Tag " + Integer.toString(anfangsTag + 1) + " zu Tag "
+				+ Integer.toString(anfangsTag + 2) + " betraegt: " + temperaturWechsel + " °C");
 
 	}
 

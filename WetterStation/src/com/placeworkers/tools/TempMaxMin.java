@@ -4,8 +4,8 @@ public class TempMaxMin {
 
 	public int[] mTemp2;
 
-	public TempMaxMin(int[] temperaturArray) {
-		mTemp2 = temperaturArray;
+	public TempMaxMin(int[] is) {
+		mTemp2 = is;
 	}
 
 	public int getMaxTemp() {

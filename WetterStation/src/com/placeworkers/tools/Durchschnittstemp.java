@@ -4,8 +4,8 @@ public class Durchschnittstemp {
 
 	public int[] mTemp = null;
 
-	public Durchschnittstemp(int[] temp) {
-		mTemp = temp;
+	public Durchschnittstemp(int[] temperatur) {
+		mTemp = temperatur;
 	}
 
 	public int getDurchschnittstemp(int[] arr) {

@@ -9,9 +9,9 @@ public class WarmphaseKaltphasenwechsel  {
 	int[] mTemp3;
 	int[] mTag;
 
-	public WarmphaseKaltphasenwechsel(int[] tagArray, int[] temperaturArray) {
-		mTemp3 = temperaturArray;
-		mTag = tagArray;
+	public WarmphaseKaltphasenwechsel(int[] is, int[] is2) {
+		mTemp3 = is2;
+		mTag = is;
 	}
 
 	public int[] getTempUnterschiedUndTag() {
