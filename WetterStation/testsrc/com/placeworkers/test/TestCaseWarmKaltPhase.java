@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.placeworkers.tools.TagUndTemp;
+import com.placeworkers.tools.AusgangswerteUndRechnungen;
 import com.placeworkers.tools.WarmphaseKaltphasenwechsel;
 
 public class TestCaseWarmKaltPhase {

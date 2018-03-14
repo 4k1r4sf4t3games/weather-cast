@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.placeworkers.tools.TagUndTemp;
+import com.placeworkers.tools.AusgangswerteUndRechnungen;
 import com.placeworkers.tools.TempMaxMin;
 
 public class TestCaseTempMaxMin {

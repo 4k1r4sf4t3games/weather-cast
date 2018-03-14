@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import com.placeworkers.tools.Durchschnittstemp;
-import com.placeworkers.tools.TagUndTemp;
+import com.placeworkers.tools.AusgangswerteUndRechnungen;
 
 public class TestCaseDurchschnittstemp  {
 	int[] tag = TagUndTemp.getTag();
