@@ -1,2 +1,2 @@
 # weather-cast
-java console app 
+java console(terminal) app 
